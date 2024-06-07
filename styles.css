@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    border: #2ecc71;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+    
+
+.header {
+    
+    width: 30%;
+    overflow: hidden;
+}
+
+.header-image {
+   
+    width: 25%;
+    height: auto;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #3a9217;
+    padding: 1em 0;
+    color: white;
+}
+
+
+.navbar .brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .navbar-links a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+/* Slider Styles */
+.slider img {
+    width: 50%;
+    height: auto;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+    margin: 2em 0;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1em;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #3498db;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #2980b9;
+}
+
+/* Button Styles */
+.custom-button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2em 0;
+}
+
+.custom-button:hover {
+    background-color: #27ae60;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
